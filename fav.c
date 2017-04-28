@@ -20,7 +20,7 @@ void usage(const char *error)
   exit(1);
 }
 
-void permutate(void)
+void combine(void)
 {
   for (char a = 'a'; a <= 'z'; ++a) {
     for (char b = 'a'; b <= 'z'; ++b) {
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
   }
 
 recurse:
-  permutate();
+  combine();
   if (recurse) {
     goto recurse;
   }
