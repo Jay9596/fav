@@ -2,7 +2,7 @@
 The perfect tool for coming up with a name for your latest project.
 
 ## What is fav?
-`fav` is a command-line utility that permutates the string 'aaa' and outputs all
+`fav` is a command-line utility that generates all possible combinations of the string 'aaa' and outputs all
 17,576 possible combinations of the word. Using `fav`, you can scan through
 the output looking for a word vaguely similar to a word in the English language and
 once you've found it, then you've found the name of your latest project.
@@ -21,7 +21,7 @@ C/C++ compilers available then run the output.
 
 ## Bonus
 If you find `fav` useless, then a bonus feature is available. With the `-r` switch,
-you can output the permutations recursively creating a matrix-like window.
+you can output the combinations recursively creating a matrix-like window.
 
 ## Author
 Michael "Maktm" A.
